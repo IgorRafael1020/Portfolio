@@ -9,6 +9,8 @@
         <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Devicon-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
@@ -48,9 +50,9 @@
                     <div class="subheading mb-5">
                         <a href="mailto:igorrafael_9@hotmail.com">igorrafael_9@hotmail.com</a>
                     </div>
-                    <p class="lead mb-5">Eu sou um estudante cursando Análise e Desenvolvimento de Sistemas.</p>
+                    <p class="lead mb-5">Desenvolvedor.</p>
                     <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/igor-rafael-97b397204/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://www.linkedin.com/in/igorrafael1020"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/IgorRafael1020"><i class="fab fa-github"></i></a>
                         <a class="social-icon" href="#!"><i class="fab fa-instagram"></i></a>
                         <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
@@ -65,7 +67,12 @@
                     <h2 class="mb-5">Experiência</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <div class="subheading mb-3">Eu não possuo nenhuma experiência anterior, e estou em busca de um lugar onde eu possa evoluir e mehlorar minhas habilidades.</div>
+                            <p>Oi, sou um desenvolvedor e trabalho na Itix.</p>
+                            <p>Comecei atuando na área de desenvolvimento como estagiário na empresa onde atualmente trabalho. 
+                                Comecei em um projeto interno que utilizava angular e Java, 
+                                onde tive a oportunidade de aprender e melhorar minhas Habilidades.</p>
+                            <p>Fui efetivado e comecei em uma nova equipe onde estou atualmente, 
+                                minha principal função é migrar as APIs que o cliente possui para a Infraestrutura da Oracle Cloud</p>
                         </div>
                     </div>
                 </div>
@@ -81,7 +88,7 @@
                             <div class="subheading mb-3">Tecnólogo</div>
                             <div>Análise e Desenvolvimento de Sistemas.</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2020 - Atualmente</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">2020 - 2022</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
@@ -99,15 +106,28 @@
                 <div class="resume-section-content">
                     <h2 class="mb-5">Habilidades</h2>
                     <div class="subheading mb-3">Linguagens de Programação & Frameworks</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-						<li class="list-inline-item"><i class="fab fa-php"></i></li>
-						<li class="list-inline-item"><i class="fab fa-java"></i></li>
-                        
-                        <li class="list-inline-item"><img src="assets/img/c-sharp.png" width="48px" height="48px" /></li>
-                        <li class="list-inline-item"><img src="assets/img/sql-server.png" width="48px" height="48px" /></li>
+                    <ul id="programacao" class="list-inline dev-icons">
+                        <li class="list-inline-item"><i id="html" class="devicon-html5-plain"></i></li>
+                        <li class="list-inline-item"><i class="devicon-css3-plain"></i></li>
+                        <li class="list-inline-item"><i class="devicon-javascript-plain"></i></li>
+                        <li class="list-inline-item"><i class="devicon-typescript-plain"></i></li>
+						<li class="list-inline-item"><i class="devicon-php-plain"></i></li>
+						<li class="list-inline-item"><i class="devicon-java-plain"></i></li>
+                        <li class="list-inline-item"><i class="devicon-c-plain"></i></li>
+                        <li class="list-inline-item"><i class="devicon-csharp-plain"></i></li>
+                        <li class="list-inline-item"><i class="devicon-angularjs-plain"></i></li>
+                    </ul>
+                    <div class="subheading mb-3">Banco de dados</div>
+                    <ul id="bd" class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="devicon-microsoftsqlserver-plain"></i></li>
+                        <li class="list-inline-item"><i class="devicon-oracle-plain"></i></li>
+                        <li class="list-inline-item"><i class="devicon-mysql-plain"></i></li>
+                        <li class="list-inline-item"><i class="devicon-postgresql-plain"></i></li>
+                    </ul>
+                    <div class="subheading mb-3">Versionamento de Código</div>
+                    <ul id="versionamento" class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="devicon-git-plain"></i></li>
+                        <li class="list-inline-item"><i class="devicon-github-plain"></i></li>
                     </ul>
                 </div>
             </section>
@@ -116,8 +136,11 @@
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Interesses</h2>
-                    <p>Eu me identifico mais com a parte de Back-End, eu gosto de resolver problemas de programação, dá uma boa sensação quando resolvo um, e também gosto de procurar soluções mais eficientes e otimizadas.</p>
-                    <p class="mb-0">Minha atividade preferida no tempo livre é jogar, sempre busco terminar 100% do jogo, é uma satisfação para mim. Fora jogar, gosto muito de assistir filmes (principalmente de Heróis), assistir desenhos e animes, e raramente assisto alguma série.</p>
+                    <p>Eu tenho bastante interesse em tecnologia e sempre busco aprender coisas novas</p>
+                    <p class="mb-0">Minha atividade preferida no tempo livre é jogar, onde me esforço bastante para completar o jogo 100%. 
+                        Também gosto muito de assistir filmes, séries e animações. 
+                        E quando não estou fazendo alguma dessas coisas estou saindo com meus amigos.
+                    </p>
                 </div>
             </section>
             <hr class="m-0" />
@@ -129,6 +152,18 @@
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
                             Certificado de Menção Honrosa OBMEP - 2013 - 2017 - 2018
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy fa-medal"></i></span>
+                            2º lugar na maratona de programaçã da Fatec Sorocaba
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-solid fa-award text-warning"></i></span>
+                            6º lugar na final do InterFatecs
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-solid fa-medal" style="color: #cd7f32;"></i></span>
+                            3º lugar na maratona SBC de programação
                         </li>
                     </ul>
                 </div>

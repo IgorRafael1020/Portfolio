@@ -52,3 +52,32 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+var listaProgramacao = Array.from(document.getElementById("programacao").children);
+listaProgramacao.forEach(element => {
+    element.children[0].addEventListener('mouseenter', colorir);
+    element.children[0].addEventListener('mouseleave', descolorir);
+    console.log(element.children[0]);
+});
+
+var listaBancos = Array.from(document.getElementById("bd").children);
+listaBancos.forEach(element => {
+    element.children[0].addEventListener('mouseenter', colorir);
+    element.children[0].addEventListener('mouseleave', descolorir);
+    console.log(element.children[0]);
+});
+
+var listaVersionamento = Array.from(document.getElementById("versionamento").children);
+listaVersionamento.forEach(element => {
+    element.children[0].addEventListener('mouseenter', colorir);
+    element.children[0].addEventListener('mouseleave', descolorir);
+    console.log(element.children[0]);
+});
+
+function colorir() {
+    this.classList.add("colored");
+}
+
+function descolorir() {
+    this.classList.remove("colored");
+}
